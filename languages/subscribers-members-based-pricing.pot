@@ -1,0 +1,568 @@
+# Copyright (C) 2023 Meow Crew
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Subscribers & Members Based Pricing 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/members-based-pricing\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-23T17:24:53+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: subscribers-members-based-pricing\n"
+
+#. Plugin Name of the plugin
+msgid "Subscribers & Members Based Pricing"
+msgstr ""
+
+#. Description of the plugin
+msgid "Offer exclusive discounts and personalized pricing to users who purchased certain products or signed to subscription plan."
+msgstr ""
+
+#. Author of the plugin
+msgid "Meow Crew"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://meow-crew.com/"
+msgstr ""
+
+#: src/Admin/Admin.php:29
+msgid "settings"
+msgstr ""
+
+#. translators: %s: link
+#: src/Admin/Admin.php:32
+msgid "To create special pricing for subscribers, choose a state of subscription first in %s"
+msgstr ""
+
+#: src/Admin/ProductPage/RoleSpecificPricingTab.php:21
+msgid "Members\\Subscribers based pricing"
+msgstr ""
+
+#: src/Entity/PricingRule.php:377
+msgid "The pricing fields must be filled."
+msgstr ""
+
+#: src/Entity/PricingRule.php:381
+msgid "The discount is not set."
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Actions/ReactivateAction.php:37
+msgid "Reactivate"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Actions/ReactivateAction.php:56
+msgid "The rule reactivated successfully."
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Actions/SuspendAction.php:36
+msgid "Suspend"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Actions/SuspendAction.php:54
+msgid "The rule suspended successfully."
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedCustomers.php:11
+msgid "Customers"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedCustomers.php:31
+msgid "Roles: "
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedCustomers.php:43
+msgid "Customers: "
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedCustomers.php:54
+msgid "Applied to every user"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedProducts.php:10
+msgid "Products"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedProducts.php:35
+msgid "Categories: "
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedProducts.php:45
+msgid "Products: "
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedProducts.php:56
+msgid "Applied to every product"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedQuantityRules.php:8
+msgid "Quantity rules"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/AppliedQuantityRules.php:13
+msgid "Not set"
+msgstr ""
+
+#. translators: %s: minimum amount
+#: src/GlobalMemberPricing/CPT/Columns/AppliedQuantityRules.php:20
+msgid "Minimum: %s"
+msgstr ""
+
+#. translators: %s: maximum amount
+#: src/GlobalMemberPricing/CPT/Columns/AppliedQuantityRules.php:22
+msgid "Maximum: %s"
+msgstr ""
+
+#. translators: %s: quantity step
+#: src/GlobalMemberPricing/CPT/Columns/AppliedQuantityRules.php:24
+msgid "Quantity step: %s"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/Pricing.php:9
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:167
+#: src/Settings/Sections/PricingSection.php:11
+msgid "Pricing"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/Pricing.php:19
+msgid "Regular price"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/Pricing.php:23
+#: src/Settings/Sections/PricingSection.php:36
+msgid "Sale price"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/Pricing.php:28
+msgid "Discount"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/Status.php:9
+msgid "Status"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/Status.php:16
+msgid "Suspended"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/Columns/Status.php:22
+msgid "Active"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:162
+msgid "Rules"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:313
+msgid "There are no pricing rules yet. To create pricing dependencies for subscribers/members click on the button below."
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:321
+msgid "Create a pricing rule"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:349
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:350
+msgid "Pricing rule"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:351
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:352
+msgid "Add Pricing Rule"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:353
+msgid "Edit Pricing Rule"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:354
+msgid "New Pricing Rule"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:355
+msgid "View Pricing Rule"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:356
+msgid "Find Pricing Rule"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:357
+msgid "No pricing rules ware found"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:358
+msgid "No pricing rule in trash"
+msgstr ""
+
+#: src/GlobalMemberPricing/CPT/MemberBasedPricingCPT.php:360
+msgid "Member pricing rules"
+msgstr ""
+
+#: src/MembersBasedPricingPlugin.php:52
+msgid "Settings"
+msgstr ""
+
+#: src/MembersBasedPricingPlugin.php:54
+msgid "Documentation"
+msgstr ""
+
+#. translators: %s = required plugin
+#: src/MembersBasedPricingPlugin.php:107
+msgid "Members Based Pricing for WooCommerce requires %s plugin to be active!"
+msgstr ""
+
+#: src/RoleManagement/Actions/DeleteRoleAction.php:14
+msgid "Role deleted successfully."
+msgstr ""
+
+#: src/RoleManagement/Actions/DeleteRoleAction.php:17
+msgid "Standard roles cannot be deleted or modified."
+msgstr ""
+
+#: src/RoleManagement/Actions/DeleteRoleAction.php:30
+msgid "Invalid role name"
+msgstr ""
+
+#: src/RoleManagement/Actions/NewRoleAction.php:25
+msgid "The role has been added successfully."
+msgstr ""
+
+#: src/RoleManagement/Actions/NewRoleAction.php:33
+msgid "Role name is required."
+msgstr ""
+
+#: src/RoleManagement/Actions/NewRoleAction.php:39
+msgid "Invalid inherited role."
+msgstr ""
+
+#: src/RoleManagement/Actions/RoleManagementPageAction.php:57
+msgid "Invalid Nonce"
+msgstr ""
+
+#: src/RoleManagement/RoleManagementPage.php:36
+#: src/RoleManagement/RoleManagementPage.php:37
+#: views/admin/role-management/list.php:14
+msgid "Roles Management"
+msgstr ""
+
+#: src/RoleManagement/RolesTable.php:28
+#: views/admin/role-management/list.php:27
+msgid "Name"
+msgstr ""
+
+#: src/RoleManagement/RolesTable.php:29
+msgid "Capabilities"
+msgstr ""
+
+#: src/RoleManagement/RolesTable.php:52
+msgid "Delete"
+msgstr ""
+
+#: src/RoleManagement/RolesTable.php:54
+msgid "You cannot delete standard roles"
+msgstr ""
+
+#. translators: %s: count of capabilities
+#: src/RoleManagement/RolesTable.php:79
+msgid "and %d more..."
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:163
+#: src/Services/Import/WooCommerce.php:197
+msgid "Role-based pricing type"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:164
+#: src/Services/Import/WooCommerce.php:198
+msgid "Role-based discount"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:165
+#: src/Services/Import/WooCommerce.php:199
+msgid "Role-based regular price"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:166
+#: src/Services/Import/WooCommerce.php:200
+msgid "Role-based sale price"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:168
+#: src/Services/Import/WooCommerce.php:202
+msgid "Role-based minimum quantity"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:169
+#: src/Services/Import/WooCommerce.php:203
+msgid "Role-based maximum quantity"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:170
+#: src/Services/Import/WooCommerce.php:204
+msgid "Role-based quantity step"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:172
+#: src/Services/Import/WooCommerce.php:206
+msgid "Customer-based pricing type"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:173
+#: src/Services/Import/WooCommerce.php:207
+msgid "Customer-based discount"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:174
+#: src/Services/Import/WooCommerce.php:208
+msgid "Customer-based regular price"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:175
+#: src/Services/Import/WooCommerce.php:209
+msgid "Customer-based sale price"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:177
+#: src/Services/Import/WooCommerce.php:211
+msgid "Customer-based minimum quantity"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:178
+#: src/Services/Import/WooCommerce.php:212
+msgid "Customer-based maximum quantity"
+msgstr ""
+
+#: src/Services/Export/WooCommerce.php:179
+#: src/Services/Import/WooCommerce.php:213
+msgid "Customer-based quantity step"
+msgstr ""
+
+#. translators: %s: minimum quantity
+#: src/Services/QuantityManagementService.php:127
+msgid "Minimum order quantity for the product is %s"
+msgstr ""
+
+#. translators: %s: maximum quantity
+#: src/Services/QuantityManagementService.php:139
+msgid "Maximum order quantity for the product is %s"
+msgstr ""
+
+#. translators: %s: quantity step
+#: src/Services/QuantityManagementService.php:151
+msgid "Order quantity must be multiple for %s"
+msgstr ""
+
+#: src/Settings/CustomOptions/CheckboxGroupOption.php:70
+msgid "Available in the premium version"
+msgstr ""
+
+#: src/Settings/CustomOptions/CheckboxGroupOption.php:73
+#: views/admin/product-page/role-specific-pricing/single-rule-form.php:52
+msgid "Upgrade your plan"
+msgstr ""
+
+#: src/Settings/CustomOptions/DisplayAsOption.php:82
+msgid " - Available in the premium version"
+msgstr ""
+
+#: src/Settings/CustomOptions/SwitchCheckboxOption.php:38
+msgid "On"
+msgstr ""
+
+#: src/Settings/CustomOptions/SwitchCheckboxOption.php:42
+msgid "Off"
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:10
+#: src/Settings/Settings.php:132
+msgid "Members Based Pricing"
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:14
+msgid "You can set up different scenarios for how the plugin should handle unauthorized users here."
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:24
+msgid "Prevent purchase for non-logged-in user"
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:27
+msgid "When the user isn't logged in, they will not be able to make a purchase"
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:32
+msgid "Error message when the non-logged-in user adds to cart"
+msgstr ""
+
+#. translators: %s: login page url
+#: src/Settings/Sections/MainSection.php:36
+#: src/Settings/Settings.php:167
+msgid "Please enter %s to make a purchase"
+msgstr ""
+
+#. translators: %s: login page url
+#: src/Settings/Sections/MainSection.php:36
+#: src/Settings/Settings.php:169
+msgid "your account"
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:40
+msgid "Hide prices for the non-logged-in user"
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:43
+msgid "Show all prices in the store only for the logged-in user"
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:48
+msgid "Add to cart label for the non-logged-in user"
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:49
+msgid "Change default Add to cart label to something else to be displayed for the non-logged-in user"
+msgstr ""
+
+#: src/Settings/Sections/MainSection.php:52
+msgid "Leave it empty to keep as it is"
+msgstr ""
+
+#: src/Settings/Sections/PricingSection.php:15
+msgid "Here you can decide when the purchase of product will be considered and how to display prices for users with the appropriate product purchased."
+msgstr ""
+
+#: src/Settings/Sections/PricingSection.php:26
+msgid "Display as"
+msgstr ""
+
+#: src/Settings/Sections/PricingSection.php:32
+msgid "Exact set price"
+msgstr ""
+
+#: src/Settings/Sections/PricingSection.php:42
+msgid "Recognize purchase when order status is"
+msgstr ""
+
+#: src/Settings/Sections/PricingSection.php:53
+msgid "Recognize subscription active when its status is"
+msgstr ""
+
+#: src/Settings/Settings.php:174
+msgid "Only for registered clients"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:30
+msgid "Choose the products and/or categories to apply the pricing rule"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:38
+msgid "Apply for categories"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:45
+msgid "Search for a category&hellip;"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:60
+msgid "Choose the categories for which this pricing rule will apply. The rule applies to all products in the category."
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:68
+msgid "Apply for specific products"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:75
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:91
+msgid "Pick up products for which you want to apply the pricing rule."
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:99
+msgid "Choose the user role and/or customers' accounts to apply the pricing rule"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:105
+msgid "User roles"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:112
+msgid "Select for a customer role&hellip;"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:129
+msgid "Choose to what user roles this rule will be relevant. Applies to all users with those roles."
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:137
+msgid "Include specific customers"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:146
+msgid "Select for a customer&hellip;"
+msgstr ""
+
+#: views/admin/global-rules/role-specific-pricing/rules.php:159
+msgid "Pick up separate user accounts, which will be affected by this rule. "
+msgstr ""
+
+#: views/admin/product-page/role-specific-pricing/index.php:25
+msgid "Pricing for subscribers/members"
+msgstr ""
+
+#: views/admin/product-page/role-specific-pricing/single-rule-form.php:26
+msgid "users in this rule"
+msgstr ""
+
+#: views/admin/product-page/role-specific-pricing/single-rule-form.php:48
+msgid "Percentage discounts and order quantity management are available in the premium version."
+msgstr ""
+
+#: views/admin/product-page/role-specific-pricing/single-rule-form.php:72
+msgid "Search for a product &hellip;"
+msgstr ""
+
+#: views/admin/product-page/role-specific-pricing/single-rule-form.php:113
+msgid "Search for a category &hellip;"
+msgstr ""
+
+#: views/admin/product-page/role-specific-pricing/single-rule-form.php:154
+msgid "Flat prices"
+msgstr ""
+
+#: views/admin/product-page/role-specific-pricing/single-rule-form.php:164
+msgid "Percentage discount"
+msgstr ""
+
+#: views/admin/product-page/role-specific-pricing/single-rule-form.php:176
+msgid "Note that prices indicated below will be applied to the whole range of products you specified in the products/categories sections. Be careful to not mess up the pricing."
+msgstr ""
+
+#: views/admin/product-page/role-specific-pricing/single-rule-form.php:257
+msgid "Product quantity control"
+msgstr ""
+
+#: views/admin/role-management/list.php:20
+msgid "Add new role"
+msgstr ""
+
+#: views/admin/role-management/list.php:31
+msgid "Display name"
+msgstr ""
+
+#: views/admin/role-management/list.php:35
+msgid "Inherit role"
+msgstr ""
+
+#: views/admin/role-management/list.php:44
+msgid "Adopt all the capabilities from the selected role."
+msgstr ""
+
+#: views/admin/role-management/list.php:54
+msgid "Add Role"
+msgstr ""

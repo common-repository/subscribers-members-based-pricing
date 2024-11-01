@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="members_and_subscribers_based_pricing_add_to_cart_label_for_non_logged_in_users"/>
+    </admin-texts>
+
+    <custom-fields>
+        <custom-field action="copy-once">_member_based_pricing_rules</custom-field>
+    </custom-fields>
+</wpml-config>
